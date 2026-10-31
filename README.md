@@ -10,14 +10,6 @@ This project presents the design and implementation of a **short-range resonant 
 
 The transmitter supports two control approaches: an **analog oscillator based on the NE555P timer** and a **digital pulse-generation approach using an Arduino Uno**. The power stage is driven through **IR2104 half-bridge gate-driver ICs**.
 
-## Hardware Prototype
-
-<p align="center">
-  <img src="Images/Assembled_Circuit.jpg" alt="Assembled resonant wireless power transfer hardware prototype" width="680">
-</p>
-<p align="center"><strong>Figure 1. Assembled Hardware Prototype</strong></p>
-<p align="center"><em>Physical implementation of the transmitter and receiver circuitry used to demonstrate wireless delivery of electrical power to a DC motor.</em></p>
-
 ## PCB Design
 
 <p align="center">
@@ -25,6 +17,14 @@ The transmitter supports two control approaches: an **analog oscillator based on
 </p>
 <p align="center"><strong>Figure 2. PCB 3D View</strong></p>
 <p align="center"><em>Three-dimensional visualization of the designed PCB, illustrating component placement and the integration of switching, control, and supporting circuits.</em></p>
+
+## Hardware Prototype
+
+<p align="center">
+  <img src="Images/Assembled_Circuit.jpg" alt="Assembled resonant wireless power transfer hardware prototype" width="680">
+</p>
+<p align="center"><strong>Figure 1. Assembled Hardware Prototype</strong></p>
+<p align="center"><em>Physical implementation of the transmitter and receiver circuitry used to demonstrate wireless delivery of electrical power to a DC motor.</em></p>
 
 ## System Architecture
 
